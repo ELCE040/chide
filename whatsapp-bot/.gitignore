@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# WhatsApp session data (contains login credentials)
+session/
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
