@@ -1,0 +1,30 @@
+# Additional dependencies for performance and modern design
+# Add these to your pubspec.yaml file
+
+dependencies:
+  # Video player with caching
+  video_player: ^2.8.0
+  cached_video_player: ^1.0.3
+  
+  # Image caching
+  cached_network_image: ^3.3.0
+  flutter_cache_manager: ^3.3.1
+  
+  # Performance
+  wakelock_plus: ^1.2.0
+  
+  # UI enhancements
+  shimmer: ^3.0.0  # For loading animations
+  
+  # Optional: For better video streaming
+  chewie: ^1.7.0  # Enhanced video player UI
+  
+  # Optional: For adaptive video streaming
+  # hls_player: ^0.0.1  # If using HLS streams
+  
+  # Optional: For visibility detection in lists
+  visibility_detector: ^0.4.0
+
+dev_dependencies:
+  # Performance monitoring
+  # flutter_performance: ^0.1.0  # Optional
